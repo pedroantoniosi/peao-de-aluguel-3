@@ -149,7 +149,13 @@ body {
         & .navbar {
             align-items: center;
 
+            & .nav-link a {
+                color: var(--light);
+                font-weight: 500;
+            }
         }
+
+
     }
 
 }
